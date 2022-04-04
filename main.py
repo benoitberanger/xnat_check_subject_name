@@ -161,7 +161,7 @@ def check_machine( regex_list, write_tsv, txtfile ):
         write_tsv.writerow( [ project_name, regex_list[project_name], N, good, pct_good, bad, pct_bad ] )
 
 
-main_path = '/network/lustre/iss01/cenir/analyse/irm/studies/cenir/nomenclatures'
+main_path = '/network/lustre/iss02/cenir/analyse/irm/studies/cenir/nomenclatures'
 
 # Write to .tsv
 with open(os.path.join(main_path,'{}_table_verif_code_sujet_VerioPrisma.tsv'.format(now)),'w',newline='') as tsvfile:
