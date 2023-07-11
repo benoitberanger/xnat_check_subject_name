@@ -49,6 +49,7 @@ regex_verio = {
     'PREDICT_PGRN'              : r'PREDICT_PGRN_SAL_[0-9]{2}_[A-Z]{2}_(M[0-9]+)',
     'QUIT_COC'                  : r'QUIT_COC_[0-9]{2}_[0-9]{2}_[A-Z]{2}(_V2)?',
     'SOM_ALS2'                  : r'SOM_ALS2_[A-Z]{2}_[0-9]{2}_(P|T)',
+    'STERIMGLI'                 : r'STERIMGLI_10_[0-9]{3}_[A-Z]{2}_(Baseline|Baseline_Rescan|W[0-9]{1,2})',
     'STOP_I_SEP'                : r'STOP_I_SEP_04_[0-9]{3}_(M[0-9]+|Rechute)',
     'TANGO_251AD201'            : r'251AD201_252[0-9]{3}_(w[0-9]+|Screening|Unscheduled|ET)',
     'TERIS'                     : r'TERIS_09_[0-9]{2}_(Baseline|Week48|Week96|EOT)',
